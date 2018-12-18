@@ -85,7 +85,7 @@ I = EDGE(X,Y,U=10, gamma=[1, 1], epsilon=[0,0], epsilon_vector = 'fixed', eps_ra
 ```
 
 
-## Demo:
+## Demo
 
 In the demo file, several examples of continuous-discrete dependencies are provided. 
 
