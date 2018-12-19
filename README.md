@@ -84,6 +84,9 @@ I = EDGE(X,Y,U=10, gamma=[1, 1], epsilon=[0,0], epsilon_vector = 'fixed', eps_ra
 	print ('Large size independent datasets: ', I)
 ```
 
+## Package Requirements:
+
+Python v3, numpy, scipy, sklearn, cvxpy v1.0 (if you are using ensemble estimation with optimum weights)
 
 ## Demo
 
@@ -94,3 +97,6 @@ In the demo file, several examples of continuous-discrete dependencies are provi
 
 This project is licensed under the University of Michigan License.
 
+## Your Comments and Questions Appreciated
+
+Please help to debug possible errors and improve the code by reporting your issues and problems with the code.
