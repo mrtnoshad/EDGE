@@ -1,5 +1,5 @@
 # Test EDGE
-from EDGE_4_3_0 import EDGE
+from EDGE_4_3_1 import EDGE
 from sklearn.datasets import make_classification
 import numpy as np
 import matplotlib
