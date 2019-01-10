@@ -24,8 +24,8 @@ I = EDGE(X,Y,U=10, gamma=[1, 1], epsilon=[0,0], epsilon_vector = 'fixed', eps_ra
  X: is N * d_x and Y is N * d_Y data sets
  U: (optional) is an upper bound on the MI. It doesn't need to be accurate, but more accurate upper bound we set, faster 	convergence rates we get
  gamma=[gamma_X,gamma_Y]: (optional) is the vector of soothness for X and Y. 
-		For example, if the data is discrete we set gamma close to 0, 
-		and if the data is continuous we set gamma close to 1 (or maybe higher if it is very smooth) 
+		For example, if the data is discrete we set gamma close to 0, (note that gamma cannot be exactly equal to 0, 		   usually 0.001 is a good number for discrete data) 
+		If the data is continuous we set gamma close to 1 (or maybe higher if it is very smooth) 
  epsilon=[eps_X, eps_Y]: (optional) is the vector of bandwidths for X and Y. If no epsilon is set, 
 		automatic bandwidths according to KNN distances will be set.
  epsilon_vector (optional): possible arguments are 'fixed' or 'range'. If 'fixed' is given, all of 
