@@ -88,10 +88,13 @@ I = EDGE(X,Y,U=10, gamma=[1, 1], epsilon=[0,0], epsilon_vector = 'fixed', eps_ra
 
 Python v3, numpy, scipy, sklearn, cvxpy v1.0 (if you are using ensemble estimation with optimum weights)
 
-## Demo
+## Demo for MI Estimator
 
 In the demo file, several examples of continuous-discrete dependencies are provided. 
 
+## Demo for Information Plane (Information Bottleneck) Visualization in Deep Neural Networks
+
+An example is available in the information_plane folder
 
 ## License
 
