@@ -94,7 +94,8 @@ In the demo file, several examples of continuous-discrete dependencies are provi
 
 ## Demo for Information Plane (Information Bottleneck) Visualization in Deep Neural Networks
 
-An example is available in the information_plane folder
+Two examples are available in the information_plane_FC and information_plane_CNN folders for the MNIST data.
+
 
 ## License
 
