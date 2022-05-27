@@ -1,4 +1,4 @@
-# Scalable Mutual Information Estimation using Dependence Graphs
+# Scalable Mutual Information Estimation using Dependence Graphs for Deep Learning Applications
 
 EDGE is a scalable and optimum estimator of mutual information for deep learning applications
 
